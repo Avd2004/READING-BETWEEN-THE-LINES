@@ -24,15 +24,24 @@ There have been several researches conducted on processing and identifying idiom
 This study aims to help improve the translations on commonly used Hindi phrases with the correct contextual awareness in order to aid machine translation of literature, online text messages, social media content and many other places that can help increase the inclusivity and diversity of knowledge and communication over the internet. 
 
 The main structure and steps involved ares:
-Pre-processing idioms and forming idiom_tokens and idiom_keyword pairs for each idiom
-Tokenize the text that needs to be identified for idioms into sentences.
-Use Levenshtein distance for string matching of the idioms in the text.
-If a close match is found, note the index of the idiom that matched with the text.
-Store the matched sentence along with the previous sentence as ‘context.’
-Translate the context in english to ensure only the meaning is passed, not the idiom.
-Obtain the keyword set of the idiom from its index.
-Using zero shot classification, classify if the context relates to the keyword or not.
-a.) If the context is related to any of the keywords, then the phrase was used in its literal sense.
+
+1. Pre-processing idioms and forming idiom_tokens and idiom_keyword pairs for each idiom
+
+2. Tokenize the text that needs to be identified for idioms into sentences.
+
+3. Use Levenshtein distance for string matching of the idioms in the text.
+
+4. If a close match is found, note the index of the idiom that matched with the text.
+
+5. Store the matched sentence along with the previous sentence as ‘context.’
+
+6. Translate the context in english to ensure only the meaning is passed, not the idiom.
+
+7. Obtain the keyword set of the idiom from its index.
+
+8. Using zero shot classification, classify if the context relates to the keyword or not.
+
+		a.) If the context is related to any of the keywords, then the phrase was used in its literal sense.
 		b.) If the context is unrelated to any of the keywords, it is used in its idiomatic meaning.
 Methodology:
 
