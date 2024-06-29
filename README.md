@@ -1,5 +1,6 @@
-#Reading Between the Lines: 
-##Classifying Idiomatic Phrases for Literal vs Idiomatic Sense
+Reading Between the Lines: 
+
+Classifying Idiomatic Phrases for Literal vs Idiomatic Sense
 
 Abstract:
 
