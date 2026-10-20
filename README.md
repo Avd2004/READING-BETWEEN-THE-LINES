@@ -1,4 +1,4 @@
-Reading Between the Lines: 
+Reading Between the Lines:
 
 Classifying Idiomatic Phrases for Literal vs Idiomatic Sense
 
